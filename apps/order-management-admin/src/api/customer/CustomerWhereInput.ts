@@ -7,4 +7,5 @@ export type CustomerWhereInput = {
   id?: StringFilter;
   name?: StringNullableFilter;
   orders?: OrderListRelationFilter;
+  phone?: StringNullableFilter;
 };
